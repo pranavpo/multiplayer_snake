@@ -1,0 +1,51 @@
+client renders snake in pos 1
+server renders snake in pos 2
+
+both snake data will be transferred to each other
+
+both snakes collide with walls and themselves
+snakes dont collide with each other
+
+grid based
+
+food position data is continuously passed from server to client
+
+if client eats food send data in buffer TRUE else FALSE
+
+if server eats food generate new food, send new food data to client with a flag maybe
+
+define all structs and other data structures in separate files
+
+need to pass simple structures for snake data and food data continuously
+
+connect through terminal maybe
+
+
+
+set up client/server
+set up grid(do)
+set up snake and controls
+generate food
+add collision detection
+add food detection
+increase snake length
+terminal inputs(done)
+generate new food
+longest snake or snake which lives longer wins?
+need to write makefile(done)
+one executable in the end
+
+
+
+TOMORROW
+MAKE DOTS APPEAR FOR EACH CLIENT CONNECTION
+MAKE DOTS MOVE FOR ALL CLIENTS
+MAKE WALLS COLLIDABLE TO CHECK FOR ISSUES IN 5 fps
+
+
+generate food
+eat food
+make snake longer
+collision
+first to 15 wins
+

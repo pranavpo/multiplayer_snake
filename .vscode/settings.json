@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "client.h": "c",
+        "server.h": "c",
+        "struct_data.h": "c",
+        "game.h": "c",
+        "raylib.h": "c",
+        "stdio.h": "c"
+    }
+}
